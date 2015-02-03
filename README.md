@@ -2,7 +2,7 @@
 ## Reading Up
 
 
-We don't really want to do too much with linked list on this first day, and we will get more into the implementation in the following days. Let's review the applications of a linked list: queue and stack.
+We don't really want to do too much with linked lists on this first day, and we will get more into the implementation in the following days. Let's review the applications of a linked lists: queue and stack.
 
 ## Exercises
 
@@ -27,3 +27,52 @@ We don't really want to do too much with linked list on this first day, and we w
     * You'll need two methods `push` and `pop` prototype properties.
   * Write you solution in the `naive_stack.js` file.
 
+## Playing With Stacks!
+
+
+* Let's print comments on comments using the function stack
+
+```
+    post_results = {post: "www.reddit.com",
+                    title: "sharing links",
+                    comments: [
+                        {name: "Jane doe",
+                        comment: "just like this site"}, 
+                        {name: "John doe",
+                        comment: "Yeah, soo fun",
+                        comments: [
+                            {name: "Bob doe",
+                            comment: "agreed! cannot stop clicking!"},
+                            {name: "Kelly doe",
+                            comment: "carpel tunnel cannot from clicking!"},
+                            {name: "Chris doe",
+                            comment: "Is it better though?",
+                            comments: [
+                                {name: "Jane doe",
+                                comment: "yes, it is."} 
+                            ]
+                            }
+                        ]
+                        },
+                        {name: "Peter doe",
+                        comment: "lame!",
+                        comments: [
+                            {name: "Sam doe",
+                            comment: "hater's gonna hate"}
+                        ]
+                        }
+
+                    ]}
+
+def print_comments(comments)
+  comments.each do |comment|
+    puts comment[:comment]
+    if comment[:comments]
+      print_comments(comment[:comments])
+    end
+  end
+end
+
+print_comments(post_results[:comments])
+
+```
