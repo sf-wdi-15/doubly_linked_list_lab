@@ -10,6 +10,7 @@ class Queue
     # push val to back
     #   of list
     @list.push(val)
+    self
   end
 
   def pop

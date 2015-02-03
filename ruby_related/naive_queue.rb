@@ -8,6 +8,8 @@ class Queue
   def push(val)
     # push val to back
     #   of list
+
+    # return self
   end
 
   def pop
