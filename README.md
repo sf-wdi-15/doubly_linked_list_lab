@@ -11,16 +11,19 @@ We don't really want to do too much with linked lists on this first day, and we 
     * You'll need a `list` attribute for each new `Queue` that will just be an `Array`.
     * You'll need two methods `push` and `pop`
   * Write you solution in the `naive_queue.rb` file.
+
 2.) Let's implement a naive `Stack` class using an `Array` instead of a linked list.
   * You'll need a `Stack` class
     * You'll need a `list` attribute for each new `Stack` that will just be an `Array`.
     * You'll need two methods `push` and `pop`
   * Write you solution in the `naive_stack.rb` file.
+
 3.) Let's rewrite our `Queue` using JavaScript. 
   * You'll need a `Queue` constructor function
     * You'll need a `list` hasOwnProperty for each new `Queue` that will just be a new `Array`.
     * You'll need two prototype methods `push` and `pop`
   * Write you solution in the `naive_queue.js` file.
+
 4.) Let's rewrite our `Stack` using JavaScript. 
   * You'll need a `Stack` constructor
     * You'll need a `list` hasOwnProperty for each new `Stack` that will just be an `Array`.
