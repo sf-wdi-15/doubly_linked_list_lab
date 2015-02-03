@@ -21,3 +21,9 @@ We don't really want to do too much with linked list on this first day, and we w
     * You'll need a `list` hasOwnProperty for each new `Queue` that will just be a new `Array`.
     * You'll need two prototype methods `push` and `pop`
   * Write you solution in the `naive_queue.js` file.
+4.) Let's rewrite our `Stack` using JavaScript. 
+  * You'll need a `Stack` constructor
+    * You'll need a `list` hasOwnProperty for each new `Stack` that will just be an `Array`.
+    * You'll need two methods `push` and `pop` prototype properties.
+  * Write you solution in the `naive_stack.js` file.
+
