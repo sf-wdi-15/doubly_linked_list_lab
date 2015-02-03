@@ -12,5 +12,5 @@ Queue.prototype.push = function(val){
 
 Queue.prototype.pop = function(){
   // remove a val from the front of the list
-  return this.list.shift()
+  return this.list.shift();
 };
